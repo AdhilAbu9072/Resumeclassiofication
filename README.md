@@ -86,8 +86,6 @@ The model can classify resumes into the following job categories:
 - Testing
 - Web Designing
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request.
