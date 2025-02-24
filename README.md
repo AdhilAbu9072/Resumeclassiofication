@@ -33,7 +33,7 @@ This is a Flask-based web application that classifies resumes into various job c
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone [<resume>](https://github.com/AdhilAbu9072/Resumeclassiofication.git)
+   git clone https://github.com/AdhilAbu9072/Resumeclassiofication.git
    cd Resumeclassiofication
    ```
 2. Install dependencies:
