@@ -49,6 +49,23 @@ This is a Flask-based web application that classifies resumes into various job c
    http://127.0.0.1:5000/
    ```
 
+## Deployment on AWS EC2
+The project was also deployed on AWS EC2 using Amazon Linux. Below are the basic steps:
+
+1. Launch an EC2 instance with Amazon Linux.
+2. Install necessary dependencies:
+   ```sh
+   sudo yum update -y
+   sudo yum install python3 python3-pip -y
+   pip3 install -r requirements.txt
+   ```
+3. Run the Flask app and expose it on port 80:
+   ```sh
+   sudo python3 app.py
+   ```
+4. Configure security groups to allow inbound traffic on port 80.
+5. Access the application via the public IP of the EC2 instance.
+
 ## Model Details
 The classifier uses a machine learning model trained on resume data. The model (`clf.pkl`) and TF-IDF vectorizer (`tfidf.pkl`) are loaded to process input resumes and predict their job categories.
 
@@ -93,5 +110,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Author
 AdhilAbu9072
 
-
- 
