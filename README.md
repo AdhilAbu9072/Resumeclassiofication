@@ -55,13 +55,13 @@ The project was also deployed on AWS EC2 using Amazon Linux. Below are the basic
 1. Launch an EC2 instance with Amazon Linux.
 2. Install necessary dependencies:
    ```sh
-   sudo yum update -y
-   sudo yum install python3 python3-pip -y
-   pip3 install -r requirements.txt
+   sudo dnf update -y
+   sudo dnf install python3 python3-pip -y
+   pip install -r requirements.txt
    ```
 3. Run the Flask app and expose it on port 80:
    ```sh
-   sudo python3 app.py
+   sudo python app.py
    ```
 4. Configure security groups to allow inbound traffic on port 80.
 5. Access the application via the public IP of the EC2 instance.
@@ -102,6 +102,7 @@ The model can classify resumes into the following job categories:
 - Sales
 - Testing
 - Web Designing
+
 
 
 ## Contributions
